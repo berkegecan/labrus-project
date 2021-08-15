@@ -1,0 +1,32 @@
+.list{
+  width: 100%;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: .5rem;
+}
+
+th {
+  padding: .75rem 0;
+  background-color: darkblue;
+  color: white;
+}
+
+th:nth-child(1),
+th:nth-child(2) {
+  width: 40%;
+}
+
+.delete:hover{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
